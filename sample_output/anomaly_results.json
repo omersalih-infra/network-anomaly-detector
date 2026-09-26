@@ -1,0 +1,148 @@
+[
+  {
+    "device": "Edge-RTR",
+    "timestamp": "2026-07-12 21:41:29.647969+00:00",
+    "metrics": {
+      "if1_in_delta": 14666426.0,
+      "if1_out_delta": 5692219.0,
+      "if1_in_err_delta": 0.0,
+      "if2_in_delta": 10988.0,
+      "if2_out_delta": 8035340.0,
+      "if2_in_err_delta": 0.0,
+      "if3_in_delta": 0.0,
+      "if3_out_delta": 0.0,
+      "if3_in_err_delta": 0.0,
+      "if4_in_delta": 0.0,
+      "if4_out_delta": 0.0,
+      "if4_in_err_delta": 0.0,
+      "cpu": 17.0
+    }
+  },
+  {
+    "device": "Edge-RTR",
+    "timestamp": "2026-07-12 21:42:25.225860+00:00",
+    "metrics": {
+      "if1_in_delta": 14028412.0,
+      "if1_out_delta": 5021725.0,
+      "if1_in_err_delta": 0.0,
+      "if2_in_delta": 7574.0,
+      "if2_out_delta": 6827436.0,
+      "if2_in_err_delta": 0.0,
+      "if3_in_delta": 0.0,
+      "if3_out_delta": 0.0,
+      "if3_in_err_delta": 0.0,
+      "if4_in_delta": 0.0,
+      "if4_out_delta": 0.0,
+      "if4_in_err_delta": 0.0,
+      "cpu": 23.0
+    }
+  },
+  {
+    "device": "Core-SW",
+    "timestamp": "2026-07-12 21:40:57.591059+00:00",
+    "metrics": {
+      "if1_in_delta": 3388093.0,
+      "if1_out_delta": 11367.0,
+      "if1_in_err_delta": 0.0,
+      "if2_in_delta": 495310.0,
+      "if2_out_delta": 544816.0,
+      "if2_in_err_delta": 0.0,
+      "if3_in_delta": 2063.0,
+      "if3_out_delta": 5508.0,
+      "if3_in_err_delta": 0.0,
+      "if4_in_delta": 6294194.0,
+      "if4_out_delta": 9518286.0,
+      "if4_in_err_delta": 0.0
+    }
+  },
+  {
+    "device": "Core-SW",
+    "timestamp": "2026-07-12 21:41:53.191217+00:00",
+    "metrics": {
+      "if1_in_delta": 6949304.0,
+      "if1_out_delta": 6580.0,
+      "if1_in_err_delta": 0.0,
+      "if2_in_delta": 1046286.0,
+      "if2_out_delta": 1141862.0,
+      "if2_in_err_delta": 0.0,
+      "if3_in_delta": 2003.0,
+      "if3_out_delta": 5380.0,
+      "if3_in_err_delta": 0.0,
+      "if4_in_delta": 7739840.0,
+      "if4_out_delta": 15553122.0,
+      "if4_in_err_delta": 0.0
+    }
+  },
+  {
+    "device": "Dist-SW1",
+    "timestamp": "2026-07-12 21:39:37.384902+00:00",
+    "metrics": {
+      "if1_in_delta": 1142354.0,
+      "if1_out_delta": 1129625.0,
+      "if1_in_err_delta": 0.0,
+      "if2_in_delta": 1083338.0,
+      "if2_out_delta": 1094142.0,
+      "if2_in_err_delta": 0.0,
+      "if3_in_delta": 0.0,
+      "if3_out_delta": 1734.0,
+      "if3_in_err_delta": 0.0,
+      "if4_in_delta": 0.0,
+      "if4_out_delta": 1734.0,
+      "if4_in_err_delta": 0.0
+    }
+  },
+  {
+    "device": "Dist-SW1",
+    "timestamp": "2026-07-12 21:41:53.914073+00:00",
+    "metrics": {
+      "if1_in_delta": 1472792.0,
+      "if1_out_delta": 1415672.0,
+      "if1_in_err_delta": 0.0,
+      "if2_in_delta": 1358168.0,
+      "if2_out_delta": 1410608.0,
+      "if2_in_err_delta": 0.0,
+      "if3_in_delta": 0.0,
+      "if3_out_delta": 2488.0,
+      "if3_in_err_delta": 0.0,
+      "if4_in_delta": 0.0,
+      "if4_out_delta": 2488.0,
+      "if4_in_err_delta": 0.0
+    }
+  },
+  {
+    "device": "Dist-SW2",
+    "timestamp": "2026-07-12 21:37:11.322996+00:00",
+    "metrics": {
+      "if1_in_delta": 5408.0,
+      "if1_out_delta": 1894.0,
+      "if1_in_err_delta": 0.0,
+      "if2_in_delta": 260.0,
+      "if2_out_delta": 2660.0,
+      "if2_in_err_delta": 0.0,
+      "if3_in_delta": 0.0,
+      "if3_out_delta": 1054.0,
+      "if3_in_err_delta": 0.0,
+      "if4_in_delta": 0.0,
+      "if4_out_delta": 1054.0,
+      "if4_in_err_delta": 0.0
+    }
+  },
+  {
+    "device": "Dist-SW2",
+    "timestamp": "2026-07-12 21:37:43.310930+00:00",
+    "metrics": {
+      "if1_in_delta": 8074.0,
+      "if1_out_delta": 2309.0,
+      "if1_in_err_delta": 0.0,
+      "if2_in_delta": 294.0,
+      "if2_out_delta": 4874.0,
+      "if2_in_err_delta": 0.0,
+      "if3_in_delta": 0.0,
+      "if3_out_delta": 1734.0,
+      "if3_in_err_delta": 0.0,
+      "if4_in_delta": 0.0,
+      "if4_out_delta": 1734.0,
+      "if4_in_err_delta": 0.0
+    }
+  }
+]

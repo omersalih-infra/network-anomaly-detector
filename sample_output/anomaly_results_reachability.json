@@ -1,0 +1,17 @@
+[
+  {
+    "device": "Dist-SW1",
+    "timestamp": "2026-07-13 19:37:01.471388+00:00",
+    "event": "SNMP polling failure \u2014 device unreachable (all interface metrics missing)"
+  },
+  {
+    "device": "Dist-SW1",
+    "timestamp": "2026-07-13 19:38:53.042402+00:00",
+    "event": "SNMP polling failure \u2014 device unreachable (all interface metrics missing)"
+  },
+  {
+    "device": "Dist-SW1",
+    "timestamp": "2026-07-13 19:40:44.616737+00:00",
+    "event": "SNMP polling failure \u2014 device unreachable (all interface metrics missing)"
+  }
+]

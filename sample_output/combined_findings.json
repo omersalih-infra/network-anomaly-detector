@@ -1,0 +1,449 @@
+{
+  "traffic_flood_test": {
+    "isolation_forest": [
+      {
+        "device": "Edge-RTR",
+        "timestamp": "2026-07-12 21:41:29.647969+00:00",
+        "metrics": {
+          "if1_in_delta": 14666426.0,
+          "if1_out_delta": 5692219.0,
+          "if1_in_err_delta": 0.0,
+          "if2_in_delta": 10988.0,
+          "if2_out_delta": 8035340.0,
+          "if2_in_err_delta": 0.0,
+          "if3_in_delta": 0.0,
+          "if3_out_delta": 0.0,
+          "if3_in_err_delta": 0.0,
+          "if4_in_delta": 0.0,
+          "if4_out_delta": 0.0,
+          "if4_in_err_delta": 0.0,
+          "cpu": 17.0
+        }
+      },
+      {
+        "device": "Edge-RTR",
+        "timestamp": "2026-07-12 21:42:25.225860+00:00",
+        "metrics": {
+          "if1_in_delta": 14028412.0,
+          "if1_out_delta": 5021725.0,
+          "if1_in_err_delta": 0.0,
+          "if2_in_delta": 7574.0,
+          "if2_out_delta": 6827436.0,
+          "if2_in_err_delta": 0.0,
+          "if3_in_delta": 0.0,
+          "if3_out_delta": 0.0,
+          "if3_in_err_delta": 0.0,
+          "if4_in_delta": 0.0,
+          "if4_out_delta": 0.0,
+          "if4_in_err_delta": 0.0,
+          "cpu": 23.0
+        }
+      },
+      {
+        "device": "Core-SW",
+        "timestamp": "2026-07-12 21:40:57.591059+00:00",
+        "metrics": {
+          "if1_in_delta": 3388093.0,
+          "if1_out_delta": 11367.0,
+          "if1_in_err_delta": 0.0,
+          "if2_in_delta": 495310.0,
+          "if2_out_delta": 544816.0,
+          "if2_in_err_delta": 0.0,
+          "if3_in_delta": 2063.0,
+          "if3_out_delta": 5508.0,
+          "if3_in_err_delta": 0.0,
+          "if4_in_delta": 6294194.0,
+          "if4_out_delta": 9518286.0,
+          "if4_in_err_delta": 0.0
+        }
+      },
+      {
+        "device": "Core-SW",
+        "timestamp": "2026-07-12 21:41:53.191217+00:00",
+        "metrics": {
+          "if1_in_delta": 6949304.0,
+          "if1_out_delta": 6580.0,
+          "if1_in_err_delta": 0.0,
+          "if2_in_delta": 1046286.0,
+          "if2_out_delta": 1141862.0,
+          "if2_in_err_delta": 0.0,
+          "if3_in_delta": 2003.0,
+          "if3_out_delta": 5380.0,
+          "if3_in_err_delta": 0.0,
+          "if4_in_delta": 7739840.0,
+          "if4_out_delta": 15553122.0,
+          "if4_in_err_delta": 0.0
+        }
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-12 21:39:37.384902+00:00",
+        "metrics": {
+          "if1_in_delta": 1142354.0,
+          "if1_out_delta": 1129625.0,
+          "if1_in_err_delta": 0.0,
+          "if2_in_delta": 1083338.0,
+          "if2_out_delta": 1094142.0,
+          "if2_in_err_delta": 0.0,
+          "if3_in_delta": 0.0,
+          "if3_out_delta": 1734.0,
+          "if3_in_err_delta": 0.0,
+          "if4_in_delta": 0.0,
+          "if4_out_delta": 1734.0,
+          "if4_in_err_delta": 0.0
+        }
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-12 21:41:53.914073+00:00",
+        "metrics": {
+          "if1_in_delta": 1472792.0,
+          "if1_out_delta": 1415672.0,
+          "if1_in_err_delta": 0.0,
+          "if2_in_delta": 1358168.0,
+          "if2_out_delta": 1410608.0,
+          "if2_in_err_delta": 0.0,
+          "if3_in_delta": 0.0,
+          "if3_out_delta": 2488.0,
+          "if3_in_err_delta": 0.0,
+          "if4_in_delta": 0.0,
+          "if4_out_delta": 2488.0,
+          "if4_in_err_delta": 0.0
+        }
+      },
+      {
+        "device": "Dist-SW2",
+        "timestamp": "2026-07-12 21:37:11.322996+00:00",
+        "metrics": {
+          "if1_in_delta": 5408.0,
+          "if1_out_delta": 1894.0,
+          "if1_in_err_delta": 0.0,
+          "if2_in_delta": 260.0,
+          "if2_out_delta": 2660.0,
+          "if2_in_err_delta": 0.0,
+          "if3_in_delta": 0.0,
+          "if3_out_delta": 1054.0,
+          "if3_in_err_delta": 0.0,
+          "if4_in_delta": 0.0,
+          "if4_out_delta": 1054.0,
+          "if4_in_err_delta": 0.0
+        }
+      },
+      {
+        "device": "Dist-SW2",
+        "timestamp": "2026-07-12 21:37:43.310930+00:00",
+        "metrics": {
+          "if1_in_delta": 8074.0,
+          "if1_out_delta": 2309.0,
+          "if1_in_err_delta": 0.0,
+          "if2_in_delta": 294.0,
+          "if2_out_delta": 4874.0,
+          "if2_in_err_delta": 0.0,
+          "if3_in_delta": 0.0,
+          "if3_out_delta": 1734.0,
+          "if3_in_err_delta": 0.0,
+          "if4_in_delta": 0.0,
+          "if4_out_delta": 1734.0,
+          "if4_in_err_delta": 0.0
+        }
+      }
+    ],
+    "threshold_based": [
+      {
+        "device": "Edge-RTR",
+        "timestamp": "2026-07-12 21:39:23.370684+00:00",
+        "metric": "if2_out_octets_delta",
+        "value": 5855123.0,
+        "device_median": 159681.0,
+        "threshold": 1596810.0
+      },
+      {
+        "device": "Edge-RTR",
+        "timestamp": "2026-07-12 21:40:08.863906+00:00",
+        "metric": "if2_out_octets_delta",
+        "value": 2744643.0,
+        "device_median": 159681.0,
+        "threshold": 1596810.0
+      },
+      {
+        "device": "Edge-RTR",
+        "timestamp": "2026-07-12 21:40:40.827944+00:00",
+        "metric": "if2_out_octets_delta",
+        "value": 2160927.0,
+        "device_median": 159681.0,
+        "threshold": 1596810.0
+      },
+      {
+        "device": "Edge-RTR",
+        "timestamp": "2026-07-12 21:41:29.647969+00:00",
+        "metric": "if2_out_octets_delta",
+        "value": 8035340.0,
+        "device_median": 159681.0,
+        "threshold": 1596810.0
+      },
+      {
+        "device": "Edge-RTR",
+        "timestamp": "2026-07-12 21:42:25.225860+00:00",
+        "metric": "if2_out_octets_delta",
+        "value": 6827436.0,
+        "device_median": 159681.0,
+        "threshold": 1596810.0
+      },
+      {
+        "device": "Core-SW",
+        "timestamp": "2026-07-12 21:39:35.609811+00:00",
+        "metric": "if1_in_octets_delta",
+        "value": 6023065.0,
+        "device_median": 553898.0,
+        "threshold": 5538980.0
+      },
+      {
+        "device": "Core-SW",
+        "timestamp": "2026-07-12 21:41:53.191217+00:00",
+        "metric": "if1_in_octets_delta",
+        "value": 6949304.0,
+        "device_median": 553898.0,
+        "threshold": 5538980.0
+      },
+      {
+        "device": "Core-SW",
+        "timestamp": "2026-07-12 21:39:35.609811+00:00",
+        "metric": "if2_in_octets_delta",
+        "value": 1106675.0,
+        "device_median": 2207.0,
+        "threshold": 22070.0
+      },
+      {
+        "device": "Core-SW",
+        "timestamp": "2026-07-12 21:40:09.248263+00:00",
+        "metric": "if2_in_octets_delta",
+        "value": 157490.0,
+        "device_median": 2207.0,
+        "threshold": 22070.0
+      },
+      {
+        "device": "Core-SW",
+        "timestamp": "2026-07-12 21:40:57.591059+00:00",
+        "metric": "if2_in_octets_delta",
+        "value": 495310.0,
+        "device_median": 2207.0,
+        "threshold": 22070.0
+      },
+      {
+        "device": "Core-SW",
+        "timestamp": "2026-07-12 21:41:53.191217+00:00",
+        "metric": "if2_in_octets_delta",
+        "value": 1046286.0,
+        "device_median": 2207.0,
+        "threshold": 22070.0
+      },
+      {
+        "device": "Core-SW",
+        "timestamp": "2026-07-12 21:42:27.756212+00:00",
+        "metric": "if2_in_octets_delta",
+        "value": 842264.0,
+        "device_median": 2207.0,
+        "threshold": 22070.0
+      },
+      {
+        "device": "Core-SW",
+        "timestamp": "2026-07-12 21:39:35.609811+00:00",
+        "metric": "if2_out_octets_delta",
+        "value": 1164750.0,
+        "device_median": 23218.0,
+        "threshold": 232180.0
+      },
+      {
+        "device": "Core-SW",
+        "timestamp": "2026-07-12 21:40:57.591059+00:00",
+        "metric": "if2_out_octets_delta",
+        "value": 544816.0,
+        "device_median": 23218.0,
+        "threshold": 232180.0
+      },
+      {
+        "device": "Core-SW",
+        "timestamp": "2026-07-12 21:41:53.191217+00:00",
+        "metric": "if2_out_octets_delta",
+        "value": 1141862.0,
+        "device_median": 23218.0,
+        "threshold": 232180.0
+      },
+      {
+        "device": "Core-SW",
+        "timestamp": "2026-07-12 21:42:27.756212+00:00",
+        "metric": "if2_out_octets_delta",
+        "value": 892334.0,
+        "device_median": 23218.0,
+        "threshold": 232180.0
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-12 21:39:37.384902+00:00",
+        "metric": "if1_in_octets_delta",
+        "value": 1142354.0,
+        "device_median": 30168.0,
+        "threshold": 301680.0
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-12 21:40:58.540200+00:00",
+        "metric": "if1_in_octets_delta",
+        "value": 527266.0,
+        "device_median": 30168.0,
+        "threshold": 301680.0
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-12 21:41:53.914073+00:00",
+        "metric": "if1_in_octets_delta",
+        "value": 1472792.0,
+        "device_median": 30168.0,
+        "threshold": 301680.0
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-12 21:42:28.653313+00:00",
+        "metric": "if1_in_octets_delta",
+        "value": 571868.0,
+        "device_median": 30168.0,
+        "threshold": 301680.0
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-12 21:39:37.384902+00:00",
+        "metric": "if1_out_octets_delta",
+        "value": 1129625.0,
+        "device_median": 8198.0,
+        "threshold": 81980.0
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-12 21:40:09.818991+00:00",
+        "metric": "if1_out_octets_delta",
+        "value": 185984.0,
+        "device_median": 8198.0,
+        "threshold": 81980.0
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-12 21:40:58.540200+00:00",
+        "metric": "if1_out_octets_delta",
+        "value": 500652.0,
+        "device_median": 8198.0,
+        "threshold": 81980.0
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-12 21:41:53.914073+00:00",
+        "metric": "if1_out_octets_delta",
+        "value": 1415672.0,
+        "device_median": 8198.0,
+        "threshold": 81980.0
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-12 21:42:28.653313+00:00",
+        "metric": "if1_out_octets_delta",
+        "value": 558052.0,
+        "device_median": 8198.0,
+        "threshold": 81980.0
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-12 21:39:37.384902+00:00",
+        "metric": "if2_in_octets_delta",
+        "value": 1083338.0,
+        "device_median": 6314.0,
+        "threshold": 63140.0
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-12 21:40:09.818991+00:00",
+        "metric": "if2_in_octets_delta",
+        "value": 177128.0,
+        "device_median": 6314.0,
+        "threshold": 63140.0
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-12 21:40:58.540200+00:00",
+        "metric": "if2_in_octets_delta",
+        "value": 479032.0,
+        "device_median": 6314.0,
+        "threshold": 63140.0
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-12 21:41:53.914073+00:00",
+        "metric": "if2_in_octets_delta",
+        "value": 1358168.0,
+        "device_median": 6314.0,
+        "threshold": 63140.0
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-12 21:42:28.653313+00:00",
+        "metric": "if2_in_octets_delta",
+        "value": 534240.0,
+        "device_median": 6314.0,
+        "threshold": 63140.0
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-12 21:39:37.384902+00:00",
+        "metric": "if2_out_octets_delta",
+        "value": 1094142.0,
+        "device_median": 26156.0,
+        "threshold": 261560.0
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-12 21:40:58.540200+00:00",
+        "metric": "if2_out_octets_delta",
+        "value": 502958.0,
+        "device_median": 26156.0,
+        "threshold": 261560.0
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-12 21:41:53.914073+00:00",
+        "metric": "if2_out_octets_delta",
+        "value": 1410608.0,
+        "device_median": 26156.0,
+        "threshold": 261560.0
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-12 21:42:28.653313+00:00",
+        "metric": "if2_out_octets_delta",
+        "value": 546748.0,
+        "device_median": 26156.0,
+        "threshold": 261560.0
+      }
+    ]
+  },
+  "interface_error_test": {
+    "note": "No SNMP-detectable errors occurred despite a genuine duplex mismatch being applied for ~7.5 minutes with active traffic. This is a documented platform limitation: Cisco IOU does not emulate physical-layer error counters.",
+    "findings": []
+  },
+  "link_flap_test": {
+    "findings": [
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-13 19:37:01.471388+00:00",
+        "event": "SNMP polling failure \u2014 device unreachable (all interface metrics missing)"
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-13 19:38:53.042402+00:00",
+        "event": "SNMP polling failure \u2014 device unreachable (all interface metrics missing)"
+      },
+      {
+        "device": "Dist-SW1",
+        "timestamp": "2026-07-13 19:40:44.616737+00:00",
+        "event": "SNMP polling failure \u2014 device unreachable (all interface metrics missing)"
+      }
+    ]
+  }
+}
