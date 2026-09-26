@@ -1,5 +1,11 @@
 # AI-Assisted Network Anomaly Detector
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-Isolation%20Forest-orange?logo=scikitlearn&logoColor=white)
+![SNMP](https://img.shields.io/badge/SNMP-v2c-lightgrey)
+![Ollama](https://img.shields.io/badge/LLM-Qwen2.5%207B%20via%20Ollama-black)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 Project 2 in a portfolio of AI-assisted networking tools. Extends the hybrid
 deterministic-detection + LLM-reporting architecture from a companion project
 (an [AI-assisted network compliance auditor](https://github.com/omersalih-infra/network-compliance-auditor))
@@ -10,6 +16,22 @@ already-determined findings — never to perform detection itself. All anomaly
 detection is deterministic: an Isolation Forest model and an independent
 statistical threshold method are compared side by side, plus a dedicated
 reachability check for total SNMP outages.
+
+```mermaid
+flowchart LR
+    A["Metric Collector\ncollector_snmp.py\n(SNMP poll every 30s)"] --> B[("data/*.csv\ninterface metrics")]
+    B --> C["Isolation Forest\ndetect_anomalies.py"]
+    B --> D["Threshold method\ndetect_threshold.py"]
+    B --> E["Reachability check\ndetect_reachability.py"]
+    C --> F["combine_findings.py"]
+    D --> F
+    E --> F
+    F --> G[("combined_findings.json")]
+    G --> H["Local LLM (Qwen 2.5 7B)\ngenerate_incident_report.py"]
+    H --> I["incident_report.md"]
+
+    style H fill:#111,stroke:#555,color:#fff
+```
 
 ## Architecture
 
