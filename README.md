@@ -33,33 +33,27 @@ flowchart LR
     style H fill:#111,stroke:#555,color:#fff
 ```
 
-## Architecture
+## Detection methods
 
-1. **Metric Collector** (`collector_snmp.py`) — polls interface traffic,
-   error counters, and operational status via SNMP (`snmpget`) across four
-   Cisco IOS devices in a GNS3 lab, appending results to CSV.
-2. **Detection layer** — two independent, deterministic methods:
-   - `detect_anomalies.py` / `detect_flood_test.py` — Isolation Forest
-     (scikit-learn) on interface counter deltas.
-   - `detect_threshold.py` — flags any delta exceeding 10x a device's own
-     historical median for that metric.
-3. **Reachability checker** (`detect_reachability.py`) — flags polls where a
-   device returns no SNMP data at all (as opposed to a single interface
-   going down).
-4. **AI reporting layer** (`generate_incident_report.py`) — sends the
-   combined structured findings (`combine_findings.py`) to a local Qwen 2.5
-   model to produce a narrative Markdown report.
+| Method | File | Approach | Catches |
+|---|---|---|---|
+| **Isolation Forest** | `detect_anomalies.py`, `detect_flood_test.py` | ML outlier scoring (scikit-learn) on interface counter deltas | General statistical outliers |
+| **Threshold** | `detect_threshold.py` | Flags any delta > 10× a device's own historical median | Sharp, sudden spikes |
+| **Reachability** | `detect_reachability.py` | Flags a poll where a device returns *no* SNMP data at all | Total device/agent outage |
 
 ## Key finding
 
-The threshold-based method achieved 100% recall on a real traffic-flood
-fault-injection test, versus 40% for Isolation Forest under a fixed
-contamination-rate assumption. The LLM reporting layer, evaluated across two
-prompt iterations, reproducibly inverted the underlying data even after
-explicit correction — direct evidence that LLM narrative output must never
-be treated as authoritative over deterministic detection results. Full
-methodology, all three fault-injection tests, and the AI-reliability
-evaluation are written up in the accompanying project report.
+| Method | Recall on flood fault-injection test |
+|---|---|
+| **Threshold** | **100%** |
+| Isolation Forest (fixed contamination rate) | 40% |
+
+The LLM reporting layer, evaluated across two prompt iterations, reproducibly
+inverted the underlying data even after explicit correction — direct
+evidence that LLM narrative output must never be treated as authoritative
+over deterministic detection results. Full methodology, all three
+fault-injection tests, and the AI-reliability evaluation are written up in
+the accompanying project report.
 
 ## Setup
 
@@ -79,14 +73,12 @@ strings.
 
 ## Repo contents
 
-- `collector_snmp.py`, `detect_*.py`, `combine_findings.py`,
-  `generate_incident_report.py` — the pipeline
-- `config.example.py` — template config (documentation-range IPs, placeholder
-  community string)
-- `data/` — sample SNMP poll CSVs from the four test runs (baseline, flood,
-  duplex-mismatch, link-flap)
-- `sample_output/` — example detection results (JSON) and generated incident
-  reports (Markdown) from two prompt iterations
+| Path | Contents |
+|---|---|
+| `collector_snmp.py`, `detect_*.py`, `combine_findings.py`, `generate_incident_report.py` | The pipeline |
+| `config.example.py` | Template config (documentation-range IPs, placeholder community string) |
+| `data/` | Sample SNMP poll CSVs from four test runs (baseline, flood, duplex-mismatch, link-flap) |
+| `sample_output/` | Example detection results (JSON) and generated incident reports (Markdown), two prompt iterations |
 
 ## Lab environment
 
